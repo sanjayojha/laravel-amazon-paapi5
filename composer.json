@@ -1,0 +1,32 @@
+{
+    "name": "sanjayojha/laravel-amazon-paapi5",
+    "description": "Laravel package for Amazon Product advertising API v5 using Official PHP SDK",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Sanjay Ojha",
+            "email": "sanjay.ojha@mail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": { 
+            "Sanjayojha\\LaravelAmazonPaapi5\\" : "src/" 
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sanjayojha\\LaravelAmazonPaapi5\\LaravelAmazonPaapi5ServiceProvider"
+            ],
+            "aliases": {
+                "AmazonPaapi5": "Sanjayojha\\LaravelAmazonPaapi5\\Facades\\AmazonAPI"
+            }
+        }
+    },
+    "require": {
+        "php" : ">=7.2",
+        "guzzlehttp/guzzle" : "^6.5"
+    }
+}
