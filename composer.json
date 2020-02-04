@@ -1,6 +1,7 @@
 {
     "name": "sanjayojha/laravel-amazon-paapi5",
     "description": "Laravel package for Amazon Product advertising API v5 using Official PHP SDK",
+    "version" : "1.0.3",
     "type": "library",
     "license": "Apache-2.0",
     "authors": [
